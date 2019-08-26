@@ -6,7 +6,7 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>4453bfad-e145-430a-bede-74865bc56037</dataFileGUID>
-   <dataSourceUrl>C:\Users\ASUS\Documents\acc whistle.xlsx</dataSourceUrl>
+   <dataSourceUrl>C:\Users\ASUS\git\acc_whistle\acc whistle.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>false</isInternalPath>
    <query></query>
