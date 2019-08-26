@@ -13,21 +13,18 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('http://localhost:8000/')
-
-WebUI.click(findTestObject('Page_ACC - Whistle Blower/a_Login'))
-
-WebUI.setText(findTestObject('Page_ACC - Whistle Blower/input_Email_email'), email)
-
-WebUI.setText(findTestObject('Object Repository/Page_ACC - Whistle Blower/input_Password_password'), password)
-
-WebUI.click(findTestObject('Object Repository/Page_ACC - Whistle Blower/button_Login'))
+WebUI.callTestCase(findTestCase('ACC Whistle_Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Page_ACC - Whistle Blower/a_Logout'))
 
-WebUI.delay(0)
+WebUI.delay(2)
+
+'logout berhasil'
+if (WebUI.verifyElementPresent(findTestObject('Page_ACC - Whistle Blower/a_Login'), 2)) {
+} else {
+    'loguot gagal'
+    WebUI.closeBrowser()
+}
 
 WebUI.closeBrowser()
 

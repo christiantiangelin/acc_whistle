@@ -18,23 +18,33 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://localhost:8000/')
 
-WebUI.click(findTestObject('Page_ACC - Whistle Blower/a_Login'))
+WebUI.click(findTestObject('Page_ACC - Whistle Blower/a_Daftar'))
+
+WebUI.setText(findTestObject('Object Repository/Page_ACC - Whistle Blower/input_Nama Lengkap_fullname'), 'Christianti Angelin Maarende')
 
 WebUI.setText(findTestObject('Page_ACC - Whistle Blower/input_Email_email'), 'christianti.angelin@ti.ukdw.ac.id')
 
-WebUI.setText(findTestObject('Object Repository/Page_ACC - Whistle Blower/input_Password_password'), 'ch2400611')
+WebUI.setText(findTestObject('Object Repository/Page_ACC - Whistle Blower/input_No handphone_no_handphone'), '085242869607')
 
-WebUI.click(findTestObject('Object Repository/Page_ACC - Whistle Blower/button_Login'))
+not_run: WebUI.verifyElementHasAttribute(findTestObject('Page_ACC - Whistle Blower/input_No handphone_no_handphone'), '', 
+    0)
 
-WebUI.delay(5)
+WebUI.setEncryptedText(findTestObject('Page_ACC - Whistle Blower/input_Password_password'), 'DRvB4iE/1J1sjfk+zd9YEA==')
 
-cek = WebUI.verifyElementPresent(findTestObject('Page_ACC - Whistle Blower/h4_Silakan masuk ke dalam akun kamu'), 2)
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_ACC - Whistle Blower/input_Password Konfirmasi_password_confirmation'), 
+    'DRvB4iE/1J1sjfk+zd9YEA==')
 
-if (cek) {
-    if (WebUI.verifyElementPresent(findTestObject('Page_ACC - Whistle Blower/email_warning'), 3)) {
-    } else if (WebUI.verifyElementPresent(findTestObject('Page_ACC - Whistle Blower/password_warning'), 2)) {
-    }
+not_run: WebUI.verifyMatch('DRvB4iE/1J1sjfk+zd9YEA==', 'DRvB4iE/1J1sjfk+zd9YEA==', false)
+
+WebUI.getText(findTestObject('Page_ACC - Whistle Blower/input_Nama Lengkap_fullname'))
+
+if (true) {
+    WebUI.verifyNotMatch('Christianti Angelin Maarende', '', false)
+} else if (true) {
+    WebUI.verifyNotMatch('', '', false)
 }
+
+WebUI.click(findTestObject('Object Repository/Page_ACC - Whistle Blower/button_Register'))
 
 WebUI.closeBrowser()
 

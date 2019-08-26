@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ACC Whistle_Cari tiket (Negative Testing)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e8a37daa-87ef-407a-a2f7-51a1038e7149</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b305ceca-0847-4443-8803-a965bc1555e3</id>
+      <masked>false</masked>
+      <name>no_tiket</name>
+   </variable>
+</TestCaseEntity>

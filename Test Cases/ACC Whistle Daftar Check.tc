@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ACC Whistle Daftar Check</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5924ec43-c0c0-48ee-a013-b80b626246f4</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b6a21c78-b488-498f-9892-7923e356b8ef</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>
