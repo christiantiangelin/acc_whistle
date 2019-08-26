@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ACC Whistle_Login Check</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a5a8be9c-81e2-432d-a0f8-b64853536d82</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>84a239c0-7e5e-456a-8708-5bc58f8996fe</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>09237895-8548-4b07-837d-dc96fd102f0d</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

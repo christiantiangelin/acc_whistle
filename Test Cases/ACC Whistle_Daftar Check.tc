@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>test1</name>
+   <name>ACC Whistle_Daftar Check</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>ef42bc6e-bff7-4f07-b992-884e7cc81d6b</testCaseGuid>
+   <testCaseGuid>9362ee6e-83ab-4868-a2ea-b4d1e680cb61</testCaseGuid>
 </TestCaseEntity>
