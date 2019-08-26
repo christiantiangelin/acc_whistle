@@ -26,9 +26,13 @@ WebUI.setText(findTestObject('Object Repository/Page_ACC - Whistle Blower/input_
 WebUI.sendKeys(findTestObject('Object Repository/Page_ACC - Whistle Blower/input_Hi Christianti Angelin Maarende_search'), 
     Keys.chord(Keys.ENTER))
 
-WebUI.verifyTextPresent(no_tiket, false)
-
-WebUI.verifyElementPresent(findTestObject('Page_ACC - Whistle Blower/div_no tiket', [('text') : no_tiket]), 2)
+if (WebUI.waitForElementPresent(findTestObject('Page_ACC - Whistle Blower/div_no tiket', [('text') : no_tiket]), 2, FailureHandling.STOP_ON_FAILURE)) {
+} else {
+    'cek pesan error\r\n'
+    if (WebUI.waitForElementVisible(findTestObject('Page_ACC - Whistle Blower/div_Tiket tidak ditemukan'), 4, FailureHandling.STOP_ON_FAILURE)) {
+        WebUI.closeBrowser()
+    }
+}
 
 WebUI.closeBrowser()
 

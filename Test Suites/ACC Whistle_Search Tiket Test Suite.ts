@@ -20,7 +20,7 @@
          <id>254ba83c-82e6-49d0-ba7f-a40871c1bac0</id>
          <iterationEntity>
             <iterationType>RANGE</iterationType>
-            <value>1-3</value>
+            <value>3-4</value>
          </iterationEntity>
          <testDataId>Data Files/no_tiket</testDataId>
       </testDataLink>

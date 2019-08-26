@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-08-26T16:07:33</date>
+  <millis>1566810453120</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/ACC Whistle_Search Tiket Test Suite</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">ACC Whistle_Search Tiket Test Suite</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/ACC Whistle_Search Tiket Test Suite</property>
+</record>
+<record>
+  <date>2019-08-26T16:07:33</date>
+  <millis>1566810453147</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = ASUS - LAPTOP-KVQOJMPC</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">ASUS - LAPTOP-KVQOJMPC</property>
+</record>
+<record>
+  <date>2019-08-26T16:07:33</date>
+  <millis>1566810453148</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 10 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 10 64bit</property>
+</record>
+<record>
+  <date>2019-08-26T16:07:33</date>
+  <millis>1566810453148</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 192.168.0.254</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">192.168.0.254</property>
+</record>
+<record>
+  <date>2019-08-26T16:07:33</date>
+  <millis>1566810453151</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 6.3.1.2</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">6.3.1.2</property>
+</record>
+<record>
+  <date>2019-08-26T16:07:33</date>
+  <millis>1566810453557</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/ACC Whistle_Cari tiket</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/ACC Whistle_Cari tiket</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/ACC Whistle_Cari tiket</property>
+  <property name="source">C:\\Users\\ASUS\\git\\acc_whistle\\Test Cases\\ACC Whistle_Cari tiket.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-08-26T16:07:33</date>
+  <millis>1566810453599</millis>
+  <sequence>7</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>no_tiket = PLP20190823001</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-26T16:07:34</date>
+  <millis>1566810454153</millis>
+  <sequence>8</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : callTestCase(findTestCase(\&amp;quot;ACC Whistle_Login\&amp;quot;), [:], STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">17</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-08-26T16:07:34</date>
+  <millis>1566810454532</millis>
+  <sequence>11</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/ACC Whistle_Login</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="name">Test Cases/ACC Whistle_Login</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/ACC Whistle_Login</property>
+  <property name="source">C:\\Users\\ASUS\\git\\acc_whistle\\Test Cases\\ACC Whistle_Login.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-08-26T16:07:34</date>
+  <millis>1566810454938</millis>
+  <sequence>13</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : openBrowser(\&amp;quot;\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">16</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-08-26T16:07:35</date>
+  <millis>1566810455233</millis>
+  <sequence>15</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome&amp;apos; driver</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-08-26T16:07:35</date>
+  <millis>1566810455316</millis>
+  <sequence>17</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Action delay is set to 0 seconds</message>
+  <nestedLevel>2</nestedLevel>
+</record>
