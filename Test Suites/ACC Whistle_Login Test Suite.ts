@@ -17,21 +17,21 @@
       <testCaseId>Test Cases/ACC Whistle_Login Check</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>fbaae93f-a6ca-4bd6-b09f-930e24339c36</id>
+         <id>ea4b78a7-83ed-4c49-94ba-13f22eea31f1</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
-            <value>3-4</value>
+            <value>7</value>
          </iterationEntity>
          <testDataId>Data Files/login</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>fbaae93f-a6ca-4bd6-b09f-930e24339c36</testDataLinkId>
+         <testDataLinkId>ea4b78a7-83ed-4c49-94ba-13f22eea31f1</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>email</value>
          <variableId>84a239c0-7e5e-456a-8708-5bc58f8996fe</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>fbaae93f-a6ca-4bd6-b09f-930e24339c36</testDataLinkId>
+         <testDataLinkId>ea4b78a7-83ed-4c49-94ba-13f22eea31f1</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>password</value>
          <variableId>09237895-8548-4b07-837d-dc96fd102f0d</variableId>

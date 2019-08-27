@@ -24,5 +24,17 @@
          </iterationEntity>
          <testDataId>Data Files/login</testDataId>
       </testDataLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7b7430f6-d502-4f98-a6da-9ec70b826d68</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>84aba79d-1a8d-48e5-80b5-3e8af271537d</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
