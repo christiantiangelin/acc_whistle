@@ -19,8 +19,8 @@
          <combinationType>ONE</combinationType>
          <id>fbaae93f-a6ca-4bd6-b09f-930e24339c36</id>
          <iterationEntity>
-            <iterationType>SPECIFIC</iterationType>
-            <value>1</value>
+            <iterationType>ALL</iterationType>
+            <value>3-4</value>
          </iterationEntity>
          <testDataId>Data Files/login</testDataId>
       </testDataLink>

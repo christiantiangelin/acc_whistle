@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Email anda tidak terdaftar</name>
+   <name>span_The email must be a valid email address</name>
    <tag></tag>
-   <elementGuidId>51af9e09-3bce-4851-9795-2754b7da2570</elementGuidId>
+   <elementGuidId>240fb93b-7060-47da-aa85-3a6853acede1</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
          <value>//span[(text() = '
-                                                Email anda tidak terdaftar.
+                                                The email must be a valid email address.
                                             ' or . = '
-                                                Email anda tidak terdaftar.
+                                                The email must be a valid email address.
                                             ')]</value>
       </entry>
       <entry>
@@ -40,7 +40,7 @@
       <name>text</name>
       <type>Main</type>
       <value>
-                                                Email anda tidak terdaftar.
+                                                The email must be a valid email address.
                                             </value>
    </webElementProperties>
    <webElementProperties>

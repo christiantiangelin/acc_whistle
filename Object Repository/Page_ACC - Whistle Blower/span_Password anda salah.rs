@@ -6,14 +6,22 @@
    <elementGuidId>449718e2-a0c7-4bbd-b4d7-fec76620a2d5</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//span[(text() = '
+                                                Password anda salah
+                                            ' or . = '
+                                                Password anda salah
+                                            ')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='mapBox-login']/div/div/div[2]/div/form/div[2]/div/span[2]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>

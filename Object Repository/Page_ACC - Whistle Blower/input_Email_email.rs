@@ -6,6 +6,10 @@
    <elementGuidId>9267995a-4542-4f88-949c-5e5666113634</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'email' and @type = 'email' and @name = 'email']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//input[@id='email']</value>
       </entry>

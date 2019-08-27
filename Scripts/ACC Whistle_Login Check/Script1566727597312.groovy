@@ -26,9 +26,19 @@ WebUI.setText(findTestObject('Object Repository/Page_ACC - Whistle Blower/input_
 
 WebUI.click(findTestObject('Object Repository/Page_ACC - Whistle Blower/button_Login'))
 
-WebUI.getAttribute(findTestObject('Page_ACC - Whistle Blower/input_Email_email'), 'value')
-
-not_run: WebUI.verifyNotMatch('', '', false)
+if (WebUI.verifyElementPresent(findTestObject('Page_ACC - Whistle Blower/a_Login'), 2)) {
+    if (WebUI.waitForElementPresent(findTestObject('Page_ACC - Whistle Blower/span_Email anda tidak terdaftar'), 2, FailureHandling.STOP_ON_FAILURE)) {
+    } else if (WebUI.waitForElementPresent(findTestObject('Page_ACC - Whistle Blower/span_Password anda salah'), 2, FailureHandling.STOP_ON_FAILURE)) {
+    } else if (WebUI.waitForElementPresent(findTestObject('Page_ACC - Whistle Blower/span_The email must be a valid email address'), 
+        2, FailureHandling.STOP_ON_FAILURE)) {
+    } else {
+        'if email not match with "" then password kosong\r\nelse if password not match with "" then email kosong'
+        if (WebUI.waitForElementAttributeValue(findTestObject('Page_ACC - Whistle Blower/input_Email_email'), 'value', '', 2)) {
+        } else if (WebUI.waitForElementAttributeValue(findTestObject('Page_ACC - Whistle Blower/input_Password_password'), 'value', 
+            '', 2)) {
+        }
+    }
+}
 
 WebUI.closeBrowser()
 
