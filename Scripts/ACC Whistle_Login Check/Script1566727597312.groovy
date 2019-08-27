@@ -20,21 +20,15 @@ WebUI.navigateToUrl('http://localhost:8000/')
 
 WebUI.click(findTestObject('Page_ACC - Whistle Blower/a_Login'))
 
-WebUI.setText(findTestObject('Page_ACC - Whistle Blower/input_Email_email'), 'christianti.angelin@ti.ukdw.ac.id')
+WebUI.setText(findTestObject('Page_ACC - Whistle Blower/input_Email_email'), email)
 
-WebUI.setText(findTestObject('Object Repository/Page_ACC - Whistle Blower/input_Password_password'), 'ch2400611')
+WebUI.setText(findTestObject('Object Repository/Page_ACC - Whistle Blower/input_Password_password'), password)
 
 WebUI.click(findTestObject('Object Repository/Page_ACC - Whistle Blower/button_Login'))
 
-WebUI.delay(5)
+WebUI.getAttribute(findTestObject('Page_ACC - Whistle Blower/input_Email_email'), 'value')
 
-cek = WebUI.verifyElementPresent(findTestObject('Page_ACC - Whistle Blower/h4_Silakan masuk ke dalam akun kamu'), 2)
-
-if (cek) {
-    if (WebUI.verifyElementPresent(findTestObject('Page_ACC - Whistle Blower/email_warning'), 3)) {
-    } else if (WebUI.verifyElementPresent(findTestObject('Page_ACC - Whistle Blower/password_warning'), 2)) {
-    }
-}
+not_run: WebUI.verifyNotMatch('', '', false)
 
 WebUI.closeBrowser()
 

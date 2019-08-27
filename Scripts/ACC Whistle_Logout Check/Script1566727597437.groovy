@@ -20,10 +20,8 @@ WebUI.click(findTestObject('Page_ACC - Whistle Blower/a_Logout'))
 WebUI.delay(2)
 
 'logout berhasil'
-if (WebUI.verifyElementPresent(findTestObject('Page_ACC - Whistle Blower/a_Login'), 2)) {
-} else {
-    'loguot gagal'
-    WebUI.closeBrowser()
+if (WebUI.waitForElementPresent(findTestObject('Page_ACC - Whistle Blower/a_Login'), 2, FailureHandling.STOP_ON_FAILURE)) {
+} else if (WebUI.waitForElementPresent(findTestObject('Page_ACC - Whistle Blower/a_Logout'), 2, FailureHandling.STOP_ON_FAILURE)) {
 }
 
 WebUI.closeBrowser()

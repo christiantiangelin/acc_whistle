@@ -6,11 +6,11 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>2a026055-8e5a-4c9b-b7b8-c22243c63daf</dataFileGUID>
-   <dataSourceUrl>C:\Users\ASUS\Documents\acc whistle.xlsx</dataSourceUrl>
+   <dataSourceUrl>C:\Users\ASUS\git\acc_whistle\acc whistle.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>false</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
-   <sheetName>test data daftar</sheetName>
+   <sheetName>test data login</sheetName>
    <usingGlobalDBSetting>false</usingGlobalDBSetting>
 </DataFileEntity>

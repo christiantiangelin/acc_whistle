@@ -10,4 +10,31 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>5437b770-efa0-4374-9f84-a621ea1075b9</testSuiteGuid>
+   <testCaseLink>
+      <guid>43c10ad3-53cb-42ec-9bb4-94e7599f820c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ACC Whistle_Login Check</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>fbaae93f-a6ca-4bd6-b09f-930e24339c36</id>
+         <iterationEntity>
+            <iterationType>SPECIFIC</iterationType>
+            <value>1</value>
+         </iterationEntity>
+         <testDataId>Data Files/login</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>fbaae93f-a6ca-4bd6-b09f-930e24339c36</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>email</value>
+         <variableId>84a239c0-7e5e-456a-8708-5bc58f8996fe</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>fbaae93f-a6ca-4bd6-b09f-930e24339c36</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>09237895-8548-4b07-837d-dc96fd102f0d</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>
