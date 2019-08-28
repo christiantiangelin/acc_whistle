@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ACC Whistle_Daftar Then Erase Then Check</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5924ec43-c0c0-48ee-a013-b80b626246f4</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1a2967bb-9c03-4bce-bcff-128e835a55ac</id>
+      <masked>false</masked>
+      <name>nama_lengkap</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a7510db0-2c46-4bf4-b930-3c793cfa99c1</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>9d5743c0-1498-41ee-8bf6-3a64f8dd420a</id>
+      <masked>false</masked>
+      <name>no_ph</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b6a21c78-b488-498f-9892-7923e356b8ef</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e0c2efe7-7de6-4f1f-b54e-6c84c53f48a4</id>
+      <masked>false</masked>
+      <name>password_konfirmasi</name>
+   </variable>
+</TestCaseEntity>

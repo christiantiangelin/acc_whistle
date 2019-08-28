@@ -10,4 +10,94 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>4b318365-8545-413f-8639-e16ce64ebfc2</testSuiteGuid>
+   <testCaseLink>
+      <guid>0a461afd-c2cd-4e08-8641-a5733a370f5b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ACC Whistle_Daftar Check</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>a6295fe4-1373-4c3d-965f-2fca114cec41</id>
+         <iterationEntity>
+            <iterationType>SPECIFIC</iterationType>
+            <value>11</value>
+         </iterationEntity>
+         <testDataId>Data Files/daftar_akun</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>a6295fe4-1373-4c3d-965f-2fca114cec41</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>nama_lengkap</value>
+         <variableId>7b89b9c8-43ea-4089-8235-85ff978255ed</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>a6295fe4-1373-4c3d-965f-2fca114cec41</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>email</value>
+         <variableId>3c2baa94-2f26-400c-b6cc-b09ce4340656</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>a6295fe4-1373-4c3d-965f-2fca114cec41</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>no_hp</value>
+         <variableId>f5d96c1b-e546-44d0-af0e-334d3c6a949d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>a6295fe4-1373-4c3d-965f-2fca114cec41</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>43188a47-0e81-4b19-8c0a-9b97b4ffa4a9</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>a6295fe4-1373-4c3d-965f-2fca114cec41</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password_konfirmasi</value>
+         <variableId>7dab0749-a206-447b-b675-903b056003ec</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3563bb71-00fc-426e-9310-2d318d950005</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ACC Whistle_Daftar Then Erase Then Check</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>23718a8f-2816-48b1-b0e1-7c43e421222a</id>
+         <iterationEntity>
+            <iterationType>SPECIFIC</iterationType>
+            <value>1</value>
+         </iterationEntity>
+         <testDataId>Data Files/daftar_akun</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>23718a8f-2816-48b1-b0e1-7c43e421222a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>nama_lengkap</value>
+         <variableId>1a2967bb-9c03-4bce-bcff-128e835a55ac</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>23718a8f-2816-48b1-b0e1-7c43e421222a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>email</value>
+         <variableId>a7510db0-2c46-4bf4-b930-3c793cfa99c1</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>23718a8f-2816-48b1-b0e1-7c43e421222a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>no_hp</value>
+         <variableId>9d5743c0-1498-41ee-8bf6-3a64f8dd420a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>23718a8f-2816-48b1-b0e1-7c43e421222a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>b6a21c78-b488-498f-9892-7923e356b8ef</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>23718a8f-2816-48b1-b0e1-7c43e421222a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password_konfirmasi</value>
+         <variableId>e0c2efe7-7de6-4f1f-b54e-6c84c53f48a4</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>

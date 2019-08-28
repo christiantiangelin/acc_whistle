@@ -5,4 +5,39 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>9362ee6e-83ab-4868-a2ea-b4d1e680cb61</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7b89b9c8-43ea-4089-8235-85ff978255ed</id>
+      <masked>false</masked>
+      <name>nama_lengkap</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3c2baa94-2f26-400c-b6cc-b09ce4340656</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f5d96c1b-e546-44d0-af0e-334d3c6a949d</id>
+      <masked>false</masked>
+      <name>no_hp</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>43188a47-0e81-4b19-8c0a-9b97b4ffa4a9</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7dab0749-a206-447b-b675-903b056003ec</id>
+      <masked>false</masked>
+      <name>password_konfirmasi</name>
+   </variable>
 </TestCaseEntity>

@@ -1,0 +1,6 @@
+{"testCaseName":"Test Cases/ACC Whistle_Login Check - Iteration 1","testCaseId":"Test Cases/ACC Whistle_Login Check","bindedValues":{"password":"ch24006117","email":"angelin@ti.ukdw.ac.id"}}
+{"testCaseName":"Test Cases/ACC Whistle_Login Check - Iteration 2","testCaseId":"Test Cases/ACC Whistle_Login Check","bindedValues":{"password":"ch24006007","email":"christianti.angelin@ti.ukdw.ac.id"}}
+{"testCaseName":"Test Cases/ACC Whistle_Login Check - Iteration 3","testCaseId":"Test Cases/ACC Whistle_Login Check","bindedValues":{"password":"","email":"angelin@ti.ukdw.ac.id"}}
+{"testCaseName":"Test Cases/ACC Whistle_Login Check - Iteration 4","testCaseId":"Test Cases/ACC Whistle_Login Check","bindedValues":{"password":"ch24006117","email":""}}
+{"testCaseName":"Test Cases/ACC Whistle_Login Check - Iteration 5","testCaseId":"Test Cases/ACC Whistle_Login Check","bindedValues":{"password":"","email":""}}
+{"testCaseName":"Test Cases/ACC Whistle_Login Check - Iteration 6","testCaseId":"Test Cases/ACC Whistle_Login Check","bindedValues":{"password":"ch24006117","email":"christianti.angelin@tiukdwacid"}}
