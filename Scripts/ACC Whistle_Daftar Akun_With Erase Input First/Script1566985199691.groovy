@@ -31,21 +31,27 @@ WebUI.setText(findTestObject('Page_ACC - Whistle Blower/input_Password_password'
 WebUI.setText(findTestObject('Object Repository/Page_ACC - Whistle Blower/input_Password Konfirmasi_password_confirmation'), 
     password_konfirmasi)
 
+WebUI.delay(2)
+
 WebUI.clearText(findTestObject('Page_ACC - Whistle Blower/input_No handphone_no_handphone'))
 
-if (WebUI.waitForElementAttributeValue(findTestObject('Page_ACC - Whistle Blower/input_Nama Lengkap_fullname'), 'value', 
-    '', 2)) {
-} else if (WebUI.waitForElementAttributeValue(findTestObject('Page_ACC - Whistle Blower/input_Email_email'), 'value', '', 
-    2)) {
-} else if (WebUI.waitForElementAttributeValue(findTestObject('Page_ACC - Whistle Blower/input_No handphone_no_handphone'), 
-    'value', '', 2)) {
-} else if (WebUI.waitForElementAttributeValue(findTestObject('Page_ACC - Whistle Blower/input_Password_password'), 'value', 
-    '', 2)) {
-} else if (WebUI.waitForElementAttributeValue(findTestObject('Page_ACC - Whistle Blower/input_Password Konfirmasi_password_confirmation'), 
-    'value', '', 2)) {
-}
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/Page_ACC - Whistle Blower/button_Register'))
+if (WebUI.waitForElementPresent(findTestObject('Page_ACC - Whistle Blower/h3_Daftar akun baru ACC Whistle sekarang'), 2, 
+    FailureHandling.STOP_ON_FAILURE)){
+	if (WebUI.waitForElementAttributeValue(findTestObject('Page_ACC - Whistle Blower/input_Nama Lengkap_fullname'), 'value', 
+    '', 2)) {
+	} else if (WebUI.waitForElementAttributeValue(findTestObject('Page_ACC - Whistle Blower/input_Email_email'), 'value', '', 
+	    2)) {
+	} else if (WebUI.waitForElementAttributeValue(findTestObject('Page_ACC - Whistle Blower/input_No handphone_no_handphone'), 
+	    'value', '', 2)) {
+	} else if (WebUI.waitForElementAttributeValue(findTestObject('Page_ACC - Whistle Blower/input_Password_password'), 'value', 
+	    '', 2)) {
+	} else if (WebUI.waitForElementAttributeValue(findTestObject('Page_ACC - Whistle Blower/input_Password Konfirmasi_password_confirmation'), 
+	    'value', '', 2)) {
+	}
+}
 
 WebUI.closeBrowser()
 

@@ -34,30 +34,41 @@ WebUI.click(findTestObject('Object Repository/Page_ACC - Whistle Blower/button_R
 
 if (WebUI.waitForElementPresent(findTestObject('Page_ACC - Whistle Blower/h3_Daftar akun baru ACC Whistle sekarang'), 2, 
     FailureHandling.STOP_ON_FAILURE)) {
+    'if (check fullname > 6 karakter), else if (check fullname sesuai format)'
     if (WebUI.waitForElementPresent(findTestObject('Page_ACC - Whistle Blower/strong_The fullname must be at least 6 characters'), 
         2, FailureHandling.STOP_ON_FAILURE)) {
     } else if (WebUI.waitForElementPresent(findTestObject('Page_ACC - Whistle Blower/strong_The fullname format is invalid'), 
         2, FailureHandling.STOP_ON_FAILURE)) {
     }
     
-    WebUI.waitForElementPresent(findTestObject('Page_ACC - Whistle Blower/h4_Silakan masuk ke dalam akun kamu'), 2, FailureHandling.STOP_ON_FAILURE)
+    WebUI.delay(1)
 
+    'if (check email sudah terdaftar sebelumnya), else if (check email sesuai format)'
     if (WebUI.waitForElementPresent(findTestObject('Page_ACC - Whistle Blower/strong_The email must be a valid email address'), 
         2, FailureHandling.STOP_ON_FAILURE)) {
     } else if (WebUI.waitForElementPresent(findTestObject('Page_ACC - Whistle Blower/strong_The email has already been taken'), 
         2, FailureHandling.STOP_ON_FAILURE)) {
     }
     
+    WebUI.delay(1)
+
+    'check no_hp sesuai format'
     if (WebUI.waitForElementPresent(findTestObject('Page_ACC - Whistle Blower/strong_The no handphone format is invalid'), 
         2, FailureHandling.STOP_ON_FAILURE)) {
     }
     
+    WebUI.delay(1)
+
+    'if (check password > 6 karakter), else if (check password konfirmasi)'
     if (WebUI.waitForElementPresent(findTestObject('Page_ACC - Whistle Blower/strong_The password must be at least 6 characters'), 
         2, FailureHandling.STOP_ON_FAILURE)) {
     } else if (WebUI.waitForElementPresent(findTestObject('Page_ACC - Whistle Blower/strong_The password confirmation does not match'), 
         2, FailureHandling.STOP_ON_FAILURE)) {
     }
     
+    WebUI.delay(1)
+
+    'check input kosong'
     if (WebUI.waitForElementAttributeValue(findTestObject('Page_ACC - Whistle Blower/input_Nama Lengkap_fullname'), 'value', 
         '', 2)) {
     } else if (WebUI.waitForElementAttributeValue(findTestObject('Page_ACC - Whistle Blower/input_Email_email'), 'value', 

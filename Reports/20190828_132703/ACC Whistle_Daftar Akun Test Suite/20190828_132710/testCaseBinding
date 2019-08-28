@@ -1,0 +1,2 @@
+{"testCaseName":"Test Cases/ACC Whistle_Daftar Check","testCaseId":"Test Cases/ACC Whistle_Daftar Check","bindedValues":{"password":"mv423k","no_hp":"082295006969","nama_lengkap":"valentino","email":"valentinobudiono@gmail.como","password_konfirmasi":"qwerty"}}
+{"testCaseName":"Test Cases/ACC Whistle_Daftar Then Erase Then Check","testCaseId":"Test Cases/ACC Whistle_Daftar Then Erase Then Check","bindedValues":{"password":"qwerty","no_ph":"081111111111","nama_lengkap":"Jason Miraz","email":"jason@gmail.com","password_konfirmasi":"qwerty"}}
