@@ -45,7 +45,7 @@ WebUI.clearText(findTestObject('Page_ACC - Whistle Blower/input_No handphone_no_
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Object Repository/Page_ACC - Whistle Blower/button_Register'))
+WebUI.clearText(findTestObject('Page_ACC - Whistle Blower/input_Email_email'))
 
 if (WebUI.waitForElementPresent(findTestObject('Page_ACC - Whistle Blower/h3_Daftar akun baru ACC Whistle sekarang'), 2, 
     FailureHandling.STOP_ON_FAILURE)) {
@@ -61,6 +61,8 @@ if (WebUI.waitForElementPresent(findTestObject('Page_ACC - Whistle Blower/h3_Daf
         'value', '', 2)) {
     }
 }
+
+WebUI.click(findTestObject('Object Repository/Page_ACC - Whistle Blower/button_Register'))
 
 WebUI.closeBrowser()
 
