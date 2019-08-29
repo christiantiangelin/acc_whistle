@@ -19,7 +19,7 @@
          <combinationType>ONE</combinationType>
          <id>a6295fe4-1373-4c3d-965f-2fca114cec41</id>
          <iterationEntity>
-            <iterationType>SPECIFIC</iterationType>
+            <iterationType>ALL</iterationType>
             <value>11</value>
          </iterationEntity>
          <testDataId>Data Files/daftar_akun</testDataId>
@@ -53,51 +53,6 @@
          <type>DATA_COLUMN</type>
          <value>password_konfirmasi</value>
          <variableId>7dab0749-a206-447b-b675-903b056003ec</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>3563bb71-00fc-426e-9310-2d318d950005</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/ACC Whistle_Daftar Then Erase Then Check</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>23718a8f-2816-48b1-b0e1-7c43e421222a</id>
-         <iterationEntity>
-            <iterationType>SPECIFIC</iterationType>
-            <value>1</value>
-         </iterationEntity>
-         <testDataId>Data Files/daftar_akun</testDataId>
-      </testDataLink>
-      <variableLink>
-         <testDataLinkId>23718a8f-2816-48b1-b0e1-7c43e421222a</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>nama_lengkap</value>
-         <variableId>1a2967bb-9c03-4bce-bcff-128e835a55ac</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>23718a8f-2816-48b1-b0e1-7c43e421222a</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>email</value>
-         <variableId>a7510db0-2c46-4bf4-b930-3c793cfa99c1</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>23718a8f-2816-48b1-b0e1-7c43e421222a</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>no_hp</value>
-         <variableId>9d5743c0-1498-41ee-8bf6-3a64f8dd420a</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>23718a8f-2816-48b1-b0e1-7c43e421222a</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>password</value>
-         <variableId>b6a21c78-b488-498f-9892-7923e356b8ef</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>23718a8f-2816-48b1-b0e1-7c43e421222a</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>password_konfirmasi</value>
-         <variableId>e0c2efe7-7de6-4f1f-b54e-6c84c53f48a4</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

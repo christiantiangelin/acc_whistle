@@ -20,7 +20,7 @@
          <id>900ed409-5495-451a-99e9-b2d8d6be3580</id>
          <iterationEntity>
             <iterationType>SPECIFIC</iterationType>
-            <value>1</value>
+            <value>12</value>
          </iterationEntity>
          <testDataId>Data Files/daftar_akun</testDataId>
       </testDataLink>

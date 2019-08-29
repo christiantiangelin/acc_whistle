@@ -20,7 +20,7 @@
          <id>ea4b78a7-83ed-4c49-94ba-13f22eea31f1</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
-            <value>7</value>
+            <value>3-6</value>
          </iterationEntity>
          <testDataId>Data Files/login</testDataId>
       </testDataLink>

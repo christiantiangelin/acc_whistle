@@ -22,11 +22,19 @@ WebUI.click(findTestObject('Page_ACC - Whistle Blower/a_Daftar'))
 
 WebUI.setText(findTestObject('Object Repository/Page_ACC - Whistle Blower/input_Nama Lengkap_fullname'), nama_lengkap)
 
+WebUI.delay(2)
+
 WebUI.setText(findTestObject('Page_ACC - Whistle Blower/input_Email_email'), email)
+
+WebUI.delay(2)
 
 WebUI.setText(findTestObject('Object Repository/Page_ACC - Whistle Blower/input_No handphone_no_handphone'), no_hp)
 
+WebUI.delay(2)
+
 WebUI.setText(findTestObject('Page_ACC - Whistle Blower/input_Password_password'), password)
+
+WebUI.delay(2)
 
 WebUI.setText(findTestObject('Object Repository/Page_ACC - Whistle Blower/input_Password Konfirmasi_password_confirmation'), 
     password_konfirmasi)
@@ -38,19 +46,20 @@ WebUI.clearText(findTestObject('Page_ACC - Whistle Blower/input_No handphone_no_
 WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/Page_ACC - Whistle Blower/button_Register'))
+
 if (WebUI.waitForElementPresent(findTestObject('Page_ACC - Whistle Blower/h3_Daftar akun baru ACC Whistle sekarang'), 2, 
-    FailureHandling.STOP_ON_FAILURE)){
-	if (WebUI.waitForElementAttributeValue(findTestObject('Page_ACC - Whistle Blower/input_Nama Lengkap_fullname'), 'value', 
-    '', 2)) {
-	} else if (WebUI.waitForElementAttributeValue(findTestObject('Page_ACC - Whistle Blower/input_Email_email'), 'value', '', 
-	    2)) {
-	} else if (WebUI.waitForElementAttributeValue(findTestObject('Page_ACC - Whistle Blower/input_No handphone_no_handphone'), 
-	    'value', '', 2)) {
-	} else if (WebUI.waitForElementAttributeValue(findTestObject('Page_ACC - Whistle Blower/input_Password_password'), 'value', 
-	    '', 2)) {
-	} else if (WebUI.waitForElementAttributeValue(findTestObject('Page_ACC - Whistle Blower/input_Password Konfirmasi_password_confirmation'), 
-	    'value', '', 2)) {
-	}
+    FailureHandling.STOP_ON_FAILURE)) {
+    if (WebUI.waitForElementAttributeValue(findTestObject('Page_ACC - Whistle Blower/input_Nama Lengkap_fullname'), 'value', 
+        '', 2)) {
+    } else if (WebUI.waitForElementAttributeValue(findTestObject('Page_ACC - Whistle Blower/input_Email_email'), 'value', 
+        '', 2)) {
+    } else if (WebUI.waitForElementAttributeValue(findTestObject('Page_ACC - Whistle Blower/input_No handphone_no_handphone'), 
+        'value', '', 2)) {
+    } else if (WebUI.waitForElementAttributeValue(findTestObject('Page_ACC - Whistle Blower/input_Password_password'), 'value', 
+        '', 2)) {
+    } else if (WebUI.waitForElementAttributeValue(findTestObject('Page_ACC - Whistle Blower/input_Password Konfirmasi_password_confirmation'), 
+        'value', '', 2)) {
+    }
 }
 
 WebUI.closeBrowser()
